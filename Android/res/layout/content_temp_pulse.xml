@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.aquib.smartwatch.TempPulse"
+    tools:showIn="@layout/activity_temp_pulse">
+
+    <TextView
+        android:id="@+id/tempReading"
+        android:layout_width="260dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="128dp"
+        android:text="Temperature - 32"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tempOpt"
+        android:layout_width="194dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="192dp"
+        android:text="Opt Temp: 27-34"
+        android:textColor="#d3d3d3"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pulseReading"
+        android:layout_width="227dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginTop="304dp"
+        android:text="Pulse - 132 BPM"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pulseOpt"
+        android:layout_width="200dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="380dp"
+        android:text="Opt Pulse: 85-135 BPM"
+        android:textColor="#d3d3d3"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
